@@ -10,6 +10,8 @@
 def stair(n):
 
    # Implement the function
+   for stairs in range(1, n + 1):
+        print(' ' * (n - stairs) + '##' * stairs)
 
 
 n = int(input())
